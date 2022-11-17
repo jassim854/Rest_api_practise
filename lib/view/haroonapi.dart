@@ -50,7 +50,7 @@ class haroonapi extends StatelessWidget {
                                 p.setId(index);
                                 p.getId();
                                 print('${p.getId()}');
-
+                            
                                 Navigator.pushNamed(
                                     context, RouteName.seconpageapi);
                               },
@@ -89,7 +89,7 @@ class haroonapi extends StatelessWidget {
                                             //     //     .pictures![pic]
                                             //     //     .filename
                                             //     //     .toString());
-
+                            
                                             //     return Column(
                                             //       children: [
                                             //         Padding(
