@@ -1,5 +1,6 @@
 import 'package:Rest_api_practise/constants/AppRoutes/RouteName.dart';
 import 'package:Rest_api_practise/view/haroonapi2.dart';
+import 'package:Rest_api_practise/view/withoutmodel.dart.dart';
 import 'package:flutter/material.dart';
 
 import '../../view/haroonapi.dart';
@@ -19,6 +20,10 @@ class Routes {
       case RouteName.seconpageapi:
         return MaterialPageRoute(
           builder: (context) => SecondPageApi(),
+        );
+      case RouteName.withoutmodelapi:
+        return MaterialPageRoute(
+          builder: (context) => WithoutModelApi(),
         );
 
       default:
