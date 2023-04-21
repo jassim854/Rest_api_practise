@@ -7,6 +7,8 @@ import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+int? id;
+
 class WithoutModelApi extends StatelessWidget {
   var data;
   WithoutModelApi({
@@ -47,7 +49,11 @@ class WithoutModelApi extends StatelessWidget {
                               return Column(
                                 children: [
                                   InkWell(
-                                    onTap: () {},
+                                    onTap: () {
+                                      id = index;
+                                      Navigator.pushNamed(
+                                          context, RouteName.withoutmodelapi2);
+                                    },
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),
                                       child: Container(

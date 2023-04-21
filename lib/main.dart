@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Rest Api',
-        initialRoute: RouteName.haroonapi,
+        initialRoute: RouteName.signIn,
         onGenerateRoute: Routes.generateRoute);
   }
 }

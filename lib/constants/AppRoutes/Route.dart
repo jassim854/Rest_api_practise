@@ -1,6 +1,8 @@
 import 'package:Rest_api_practise/constants/AppRoutes/RouteName.dart';
 import 'package:Rest_api_practise/view/haroonapi2.dart';
+import 'package:Rest_api_practise/view/sign_in.dart';
 import 'package:Rest_api_practise/view/withoutmodel.dart.dart';
+import 'package:Rest_api_practise/view/withoutmodel2.dart';
 import 'package:flutter/material.dart';
 
 import '../../view/haroonapi.dart';
@@ -24,6 +26,14 @@ class Routes {
       case RouteName.withoutmodelapi:
         return MaterialPageRoute(
           builder: (context) => WithoutModelApi(),
+        );
+      case RouteName.withoutmodelapi2:
+        return MaterialPageRoute(
+          builder: (context) => WithoutModelApi2(),
+        );
+      case RouteName.signIn:
+        return MaterialPageRoute(
+          builder: (context) => SignIn(),
         );
 
       default:
